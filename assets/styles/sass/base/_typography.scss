@@ -1,0 +1,31 @@
+@use "../abstracts/colors" as c;
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.title{
+    font-weight: 200;
+    color: c.$very-dark-blue;
+
+    span{font-size: 2rem;}
+}
+
+.title-bold{
+    font-weight: 600;
+    color: c.$very-dark-blue;
+}
+
+.text{
+    font-weight: 400;
+    color: c.$grayish-blue;
+}
+
+.main__text{
+    font-size: 1.1rem;
+}
+
+.card__text{
+    font-size: .9rem;
+}

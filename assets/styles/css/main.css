@@ -1,3 +1,42 @@
+body,
+html {
+  min-height: 99.9vh;
+}
 
+body {
+  padding-top: 1px;
+  background-color: #fafafa;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.title {
+  font-weight: 200;
+  color: #4c4e61;
+}
+.title span {
+  font-size: 2rem;
+}
+
+.title-bold {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.text {
+  font-weight: 400;
+  color: #a3a5ae;
+}
+
+.main__text {
+  font-size: 1.1rem;
+}
+
+.card__text {
+  font-size: 0.9rem;
+}
 
 /*# sourceMappingURL=main.css.map */
