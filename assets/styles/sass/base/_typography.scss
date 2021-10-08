@@ -7,9 +7,11 @@
 
 .title{
     font-weight: 200;
+    font-size: 1.64rem;
+    line-height: 1.4;
     color: c.$very-dark-blue;
 
-    span{font-size: 2rem;}
+    span{font-size: inherit;}
 }
 
 .title-bold{
@@ -19,11 +21,16 @@
 
 .text{
     font-weight: 400;
+    line-height: 1.5rem;
     color: c.$grayish-blue;
 }
 
 .main__text{
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.card__title{
+    font-size: 1.3rem;
 }
 
 .card__text{

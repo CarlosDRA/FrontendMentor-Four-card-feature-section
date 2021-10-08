@@ -15,10 +15,12 @@ body {
 
 .title {
   font-weight: 200;
+  font-size: 1.64rem;
+  line-height: 1.4;
   color: #4c4e61;
 }
 .title span {
-  font-size: 2rem;
+  font-size: inherit;
 }
 
 .title-bold {
@@ -28,15 +30,67 @@ body {
 
 .text {
   font-weight: 400;
+  line-height: 1.5rem;
   color: #a3a5ae;
 }
 
 .main__text {
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.card__title {
+  font-size: 1.3rem;
 }
 
 .card__text {
   font-size: 0.9rem;
+}
+
+.card {
+  max-width: 300px;
+  height: 190px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.card img {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.card--supervisor {
+  border-top: 3px solid #45d3d3;
+}
+
+.card--team {
+  border-top: 3px solid #ea5353;
+}
+
+.card--karma {
+  border-top: 3px solid #fcaf4a;
+}
+
+.card--calculator {
+  border-top: 3px solid #549ef2;
+}
+
+.title__container {
+  width: 80vw;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.card__container {
+  width: 80vw;
+  margin: 80px auto;
+}
+
+.card {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
